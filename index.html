@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>PanelPulse - Solar Panel Dust Analysis</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body { 
+      font-family: Arial, sans-serif; 
+      max-width: 800px; 
+      margin: 0 auto; 
+      padding: 20px;
+      line-height: 1.6;
+      color: #333;
+    }
+    h1 { 
+      color: #2c3e50; 
+      border-bottom: 2px solid #3498db;
+      padding-bottom: 10px;
+    }
+    .viz-link { 
+      display: block; 
+      margin: 25px 0; 
+      padding: 20px; 
+      background: #f8f9fa; 
+      border-radius: 8px; 
+      text-decoration: none; 
+      color: #333; 
+      border-left: 5px solid #3498db;
+      transition: all 0.3s ease;
+    }
+    .viz-link:hover { 
+      background: #e9ecef; 
+      transform: translateY(-2px);
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    h2 {
+      margin-top: 0;
+      color: #3498db;
+    }
+    .footer {
+      margin-top: 40px;
+      padding-top: 20px;
+      border-top: 1px solid #eee;
+      font-size: 0.9em;
+      color: #7f8c8d;
+    }
+  </style>
+</head>
+<body>
+  <h1>PanelPulse</h1>
+  <p>Interactive visualizations demonstrating the relationship between dust accumulation and solar panel efficiency, supporting research on "Energy and Cost Efficient Self-Cleaning Solar Panels."</p>
+  
+  <a href="figures/dust_efficiency.html" class="viz-link">
+    <h2>Dust vs Efficiency Correlation</h2>
+    <p>This visualization shows how dust accumulation directly impacts solar panel efficiency, highlighting the inverse relationship between dust levels and energy production.</p>
+  </a>
+  
+  <a href="figures/time_series.html" class="viz-link">
+    <h2>Time Series Analysis</h2>
+    <p>Track how dust accumulation and panel efficiency change over time, helping identify patterns and optimal cleaning intervals.</p>
+  </a>
+
+  <div class="footer">
+    <p>Project created by Group 3: The Panels - Mohammad Alfarraj, Genesis Estrella, Andy Haas, Marjorie Llerena, Hamza Patel, Ivan Zlatanoski</p>
+  </div>
+</body>
+</html> 
